@@ -1,1 +1,1 @@
-# vuejs-extensions
+# Vue.js Browser Extension Template
