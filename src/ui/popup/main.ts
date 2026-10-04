@@ -1,11 +1,10 @@
-import './assets/main.css'
+import '@/assets/main.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
+import App from './App.vue'
 
-import DevHub from './DevHub.vue'
-
-const app = createApp(DevHub)
+const app = createApp(App)
 
 app.use(createPinia())
 
