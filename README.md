@@ -1,9 +1,6 @@
 # Vue.js Browser Extension Template
 
-
-# proj
-
-This template should help get you started developing with Vue 3 in Vite.
+This template should help get you started in developing web extensions with Vue 3 in Vite.
 
 ## Recommended IDE Setup
 
@@ -28,6 +25,8 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
+You would need to: clone, fork or generate your repository from this template, there after continue with the following steps.
+
 ```sh
 pnpm install
 ```
@@ -35,13 +34,20 @@ pnpm install
 ### Compile and Hot-Reload for Development
 
 ```sh
-pnpm dev
+pnpm dev # or
+pnpm dev:all 
 ```
+
+
 
 ### Type-Check, Compile and Minify for Production
 
 ```sh
 pnpm build
+
+# or for browser specific
+
+pnpm build:firefox
 ```
 
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
@@ -55,3 +61,14 @@ pnpm test:unit
 ```sh
 pnpm lint
 ```
+
+### Using formaters
+
+```sh
+pnpm format
+```
+
+
+If you have any questions, or got a bug, you can open an issue, so that we look on it.
+
+> Happy coding --!
