@@ -25,7 +25,7 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
-You would need to: clone, fork or generate your repository from this template, there after continue with the following steps.
+You would need to: clone, fork or generate your repository from this template by clicking the `use this template` at the top right of this repo, and thereafter continue with the following steps.
 
 ```sh
 pnpm install
